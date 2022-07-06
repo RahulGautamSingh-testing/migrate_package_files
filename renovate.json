@@ -10,7 +10,7 @@
   "packageRules":[
     {
     "automerge": false,
-    "paths": ["package.json"],
+    "paths": ["package.json"]
     }
-  ] 
+  ],
 }
