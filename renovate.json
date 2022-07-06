@@ -3,21 +3,8 @@
   "extends": [
     "github>renovatebot/.github"
   ],
-  "packageFiles": [
-    {
-      "packageFile": "package.json",
-      "packageRules": [
-        {
-          "packageRules": [
-            {
-            "packageNames": [
-              "angular"
-            ]
-          }
-            ]
-        }
-      ]
-    }
-  ],
-  "commitMessageTopic": "Helm release {{depName}}"
+   commitMessageTopic: 'Helm release {{depName}}',
+    group: {
+      commitMessageTopic: '{{{depNameShort}}} Helm releases',
+    },
 }
