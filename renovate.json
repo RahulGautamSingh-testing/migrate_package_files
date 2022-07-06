@@ -5,6 +5,6 @@
   ],
    "commitMessageTopic": "Helm release {{depName}}",
     "group": {
-      "commitMessageTopic": "{{{depNameShort}}} Helm releases",
-    },
+      "commitMessageTopic": "{{{depNameShort}}} Helm releases"
+    }
 }
