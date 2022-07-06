@@ -3,14 +3,16 @@
   "extends": [
     "github>renovatebot/.github"
   ],
-  "packageRules":[
+  "packageRules": [
     {
-    "paths": ["package.json"],
-    "automerge": false
+      "matchPaths": [
+        "package.json"
+      ],
+      "automerge": false
     }
   ],
-   "commitMessageTopic": "Helm release {{depName}}",
-    "group": {
-      "commitMessageTopic": "{{{depNameShort}}} Helm releases"
-    }
+  "commitMessageTopic": "Helm release {{depName}}",
+  "group": {
+    "commitMessageTopic": "{{{depName}}} Helm releases"
+  }
 }
