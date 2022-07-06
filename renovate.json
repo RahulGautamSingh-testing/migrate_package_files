@@ -8,7 +8,7 @@
     "paths": ["package.json"],
     "automerge": false
     }
-  ]
+  ],
    "commitMessageTopic": "Helm release {{depName}}",
     "group": {
       "commitMessageTopic": "{{{depNameShort}}} Helm releases"
