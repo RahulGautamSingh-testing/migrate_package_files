@@ -3,8 +3,8 @@
   "extends": [
     "github>renovatebot/.github"
   ],
-   "commitMessageTopic": "Helm release {{depName}}",
-    "group": {
-      "commitMessageTopic": "{{{depNameShort}}} Helm releases"
-    }
+  "commitMessageTopic": "Helm release {{depName}}",
+  "group": {
+    "commitMessageTopic": "{{{depName}}} Helm releases"
+  }
 }
