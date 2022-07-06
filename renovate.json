@@ -1,6 +1,10 @@
 {
    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-   "extends": ["github>renovatebot/.github"],
-   "assignees": ["rarkins"],
-   "commitMessageTopic": "Helm release {{depNameShort}}"
+   "extends": [
+      "github>renovatebot/.github"
+   ],
+   "assignees": [
+      "rarkins"
+   ],
+   "commitMessageTopic": "Helm release {{depName}}"
 }
