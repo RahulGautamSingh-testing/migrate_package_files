@@ -1,18 +1,5 @@
 {
-   "$schema":"https://docs.renovatebot.com/renovate-schema.json",
-   "extends":[
-      "github>renovatebot/.github"
-   ],
-   "group":{
-      "commitMessageTopic":"{{{depNameShort}}} Helm releases"
-   },
-   "commitMessageTopic":"Helm release {{depName}}",
-   "packageRules":[
-      {
-         "automerge":false,
-         "paths":[
-            "package.json"
-         ]
-      }
-   ]
+   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+   "extends": ["github>renovatebot/.github"],
+   "assignees": ["rarkins"],
 }
