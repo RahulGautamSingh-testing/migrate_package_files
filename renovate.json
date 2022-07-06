@@ -19,5 +19,5 @@
       ]
     }
   ],
-  "commitMessageTopic": 'Helm release {{depName}}',
+  "commitMessageTopic": "Helm release {{depName}}"
 }
