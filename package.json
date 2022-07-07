@@ -10,7 +10,7 @@
        "files": ["*.json","*.js"],
       "options":{
       "printWidth": 1000,
-        "tabWidth": 4
+        "bracketSpacing": false
       }
     }  
   ]
