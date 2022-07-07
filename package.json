@@ -5,11 +5,13 @@
   "prettier": {
     "singleQuote": true,
     "printWidth": 80,
-    "overrides": {
+    "overrides": [
+      {
     "files": [".*json",".*js"],
       "options":{
       "printWidth": 1000
       }
+      ]
     }  
   } 
 }
