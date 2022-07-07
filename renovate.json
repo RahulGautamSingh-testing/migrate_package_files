@@ -2,5 +2,5 @@
    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
    "extends": ["github>renovatebot/.github"],
    "assignees": ["rarkins"],
-   "group": {"branchTopic":"{{{groupSlug}}}","commitMessageTopic":"{{{depNameShort}}}"}
+   "group": {"commitMessageTopic":"{{{depNameShort}}}"}
 }
