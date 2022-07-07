@@ -1,7 +1,1 @@
-{
-   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-   "extends": ["github>renovatebot/.github"],
-   "assignees": ["rarkins"],
-   "group": {"commitMessageTopic":"{{{depName}}}"},
-   "commitMessage": "{{{depNameShort}}}"
-}
+{"$schema": "https://docs.renovatebot.com/renovate-schema.json", "extends": ["github>renovatebot/.github"], "assignees": ["rarkins"], "group": {"commitMessageTopic": "{{{depName}}}"}, "commitMessage": "{{{depName}}}"}
