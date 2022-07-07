@@ -1,18 +1,5 @@
 {
   "name": "renovate",
   "description": "Automated dependency updates. Flexible so you don't need to be.",
-  "version": "0.0.0-semantic-release",
-  "prettier": {
-    "singleQuote": true,
-    "printWidth": 80,
-    "overrides": [
-      {
-       "files": ["*.json","*.js"],
-      "options":{
-      "printWidth": 1000,
-        "bracketSpacing": false
-      }
-    }  
-  ]
-  } 
+  "version": "0.0.0-semantic-release"
 }
